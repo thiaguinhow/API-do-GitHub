@@ -1,35 +1,26 @@
 # GitHub Profile API
 
-Esta é uma API simples criada com Node.js e Express que permite consultar informações detalhadas sobre um perfil de usuário do GitHub, incluindo nome, bio, seguidores, localização e outros dados disponíveis na API pública do GitHub.
+Esta é uma API simples desenvolvida com **Node.js** e **Express** que permite consultar informações detalhadas sobre um perfil de usuário do GitHub, incluindo nome, bio, seguidores, localização e outros dados disponíveis na API pública do GitHub.
 
-## Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
 - **Node.js**: Ambiente de execução JavaScript no lado do servidor.
-- **Express**: Framework para construir APIs web de forma rápida e simples.
+- **Express**: Framework para construção de APIs web de forma rápida e simples.
 - **Axios**: Biblioteca para realizar requisições HTTP assíncronas.
 
-## Funcionalidade
+## 💡 Funcionalidade
 
-A API permite consultar informações sobre um usuário do GitHub, incluindo:
+Esta API oferece um único endpoint que permite obter informações detalhadas sobre um perfil do GitHub.
 
-- Nome do usuário
-- Bio do usuário
-- Localização do usuário
-- Número de seguidores
-- Número de repositórios públicos
-- URL do avatar
-- URL do perfil no GitHub
-
-### Endpoint
+### **Endpoint**
 
 - **GET** `/github/profile?username=<nome-do-usuário>`
 
 Exemplo de requisição:
 
+### **Resposta**
 
-### Resposta
-
-A resposta da API será um JSON contendo as informações do perfil do usuário:
+A resposta será um JSON com as seguintes informações:
 
 ```json
 {
